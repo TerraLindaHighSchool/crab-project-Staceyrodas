@@ -24,7 +24,22 @@
 That is: create the initial objects and add them to the world.</javadoc>
             <params/>
             <throws/>
-            <body/>
+            <body>
+                <variable type="island" type-java="island" name="island" value="new island()" value-java=" new island()" enable="true"/>
+                <call expression="addObject(island,560,353)" expression-java="addObject(island, 560, 353)" enable="true"/>
+                <variable type="island" type-java="island" name="island2" value="new island()" value-java=" new island()" enable="true"/>
+                <call expression="addObject(island2,44,31)" expression-java="addObject(island2, 44, 31)" enable="true"/>
+                <variable type="bombs" type-java="bombs" name="bombs" value="new bombs()" value-java=" new bombs()" enable="true"/>
+                <call expression="addObject(bombs,398,70)" expression-java="addObject(bombs, 398, 70)" enable="true"/>
+                <variable type="bombs" type-java="bombs" name="bombs2" value="new bombs()" value-java=" new bombs()" enable="true"/>
+                <call expression="addObject(bombs2,104,284)" expression-java="addObject(bombs2, 104, 284)" enable="true"/>
+                <variable type="bombs" type-java="bombs" name="bombs3" value="new bombs()" value-java=" new bombs()" enable="true"/>
+                <call expression="addObject(bombs3,383,259)" expression-java="addObject(bombs3, 383, 259)" enable="true"/>
+                <variable type="human" type-java="human" name="human" value="new human()" value-java=" new human()" enable="true"/>
+                <call expression="addObject(human,264,153)" expression-java="addObject(human, 264, 153)" enable="true"/>
+                <variable type="whale" type-java="whale" name="whale" value="new whale()" value-java=" new whale()" enable="true"/>
+                <call expression="addObject(whale,84,129)" expression-java="addObject(whale, 84, 129)" enable="true"/>
+            </body>
         </method>
     </methods>
 </class>

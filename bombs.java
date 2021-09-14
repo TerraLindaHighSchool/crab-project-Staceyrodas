@@ -6,11 +6,11 @@ import greenfoot.*;
 /**
  * 
  */
-public class bomb extends Actor
+public class bombs extends Actor
 {
 
     /**
-     * Act - do whatever the bomb wants to do. This method is called whenever the 'Act' or 'Run' button gets pressed in the environment.
+     * Act - do whatever the bombs wants to do. This method is called whenever the 'Act' or 'Run' button gets pressed in the environment.
      */
     public void act()
     {

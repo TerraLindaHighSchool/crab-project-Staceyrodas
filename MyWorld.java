@@ -24,5 +24,19 @@ public class MyWorld extends World
      */
     private void prepare()
     {
+        island island =  new  island();
+        addObject(island, 560, 353);
+        island island2 =  new  island();
+        addObject(island2, 44, 31);
+        bombs bombs =  new  bombs();
+        addObject(bombs, 398, 70);
+        bombs bombs2 =  new  bombs();
+        addObject(bombs2, 104, 284);
+        bombs bombs3 =  new  bombs();
+        addObject(bombs3, 383, 259);
+        human human =  new  human();
+        addObject(human, 264, 153);
+        whale whale =  new  whale();
+        addObject(whale, 84, 129);
     }
 }
